@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     "composite": true,
+    "noEmit": false, // Assurez-vous que cette option est définie sur false
     "target": "ES2020",
     "module": "ESNext",
     "skipLibCheck": true,
-    "moduleResolution": "node", // Important pour Node.js
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "strict": true,
