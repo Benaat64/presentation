@@ -11,7 +11,7 @@
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "noEmit": true, // Pas d'émission de fichiers JS dans ce projet
     "jsx": "react-jsx",
 
     /* Linting */

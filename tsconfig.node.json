@@ -1,21 +1,12 @@
 {
   "compilerOptions": {
     "composite": true,
-    "target": "ES2022",
-    "lib": ["ES2023"],
+    "target": "ES2020",
     "module": "ESNext",
     "skipLibCheck": true,
-
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node", // Important pour Node.js
+    "resolveJsonModule": true,
     "isolatedModules": true,
-    "moduleDetection": "force",
-
-    /* Output */
-    "noEmit": true,
-
-    /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
